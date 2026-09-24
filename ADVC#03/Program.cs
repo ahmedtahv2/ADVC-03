@@ -150,6 +150,32 @@ namespace ADVC_03
 
             #endregion
 
+            #region Q5
+            //Queue<string> Documents = new();
+            //Documents.Enqueue("Report.pdf");
+            //Documents.Enqueue("Invoice.pdf");
+            //Documents.Enqueue("Letter.docx");
+            //Documents.Enqueue("Resume.pdf");
+            //Documents.Enqueue("Photo.jpg");
+            //Console.WriteLine("\n======== Print all ========\n");
+            //Console.WriteLine(string.Join(" , ", Documents));
+            //Console.WriteLine("\n======== Count ========\n");
+            //Console.WriteLine(Documents.Count());
+            //Console.WriteLine("\n======== Peak ========\n");
+            //var Peak = Documents.Peek();
+            //Console.WriteLine(Peak);
+            //Console.WriteLine("\n======== Dequeue ========\n");
+            //string? Box;
+            //do
+            //{
+            //    Box = Documents.Dequeue();
+            //    Console.WriteLine(Box);
+
+            //} while (0 < Documents.Count());
+            //Console.WriteLine("\n======== TryDequeue ========\n");
+            //Documents.TryDequeue(out string? value);//nothing will happened because tryDocument handel if it can't remove it will return false 
+            #endregion
+
 
 
         }
