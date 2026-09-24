@@ -176,7 +176,30 @@ namespace ADVC_03
             //Documents.TryDequeue(out string? value);//nothing will happened because tryDocument handel if it can't remove it will return false 
             #endregion
 
-
+            #region Q6
+            //Stack<string> History = new();
+            //History.Push("google.com");
+            //History.Push("github.com");
+            //History.Push("stackOverFlow.com");
+            //History.Push("youtube.com");
+            //History.Push("claude.com");
+            //Console.WriteLine("\n======== Peek ========\n");
+            //string peeked = History.Peek();
+            //Console.WriteLine(peeked);
+            //Console.WriteLine("\n======== Pop ========\n");
+            //int i = 0;
+            //while(i<3)
+            //{
+            //    string ?popBox;
+            //    popBox = History.Pop();
+            //    Console.WriteLine(popBox);
+            //    i++;
+            //}
+            //Console.WriteLine("\n======== Peek ========\n");
+            //string tt = History.Peek();
+            //Console.WriteLine(tt);
+            ////nothing will hapeen because tryPop handel it when it is empty it returns false 
+            #endregion
 
         }
     }
