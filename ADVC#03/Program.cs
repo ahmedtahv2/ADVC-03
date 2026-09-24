@@ -36,6 +36,39 @@
             //Console.WriteLine(string.Join("\n" , stringList)); 
             #endregion
 
+            #region Q2
+            //SortedDictionary<int, string> Leaderboard = new()
+            //{
+            //    {500 ,"Ahmed" },
+            //    {200 ,"Sara" },
+            //    {800 ,"Ali" },
+            //    {350 ,"Mona" }
+
+
+            //};
+            //Console.WriteLine("\n======== All entries ========\n");
+            //foreach (var i in Leaderboard)
+            //{
+            //    Console.WriteLine($"{i.Key}: {i.Value}\n");
+            //}
+            //Console.WriteLine("\n======== First K&V ========\n");
+            //foreach (var i in Leaderboard)
+            //{
+            //    Console.WriteLine($"First key is : {i.Key}");
+            //    Console.WriteLine($"First value is : {i.Value}");
+            //    break;
+            //}
+            //Console.WriteLine("\n======== Chek for score 500 ========\n");
+            //Console.WriteLine(Leaderboard.ContainsKey(500) ? $"Found his name is : {Leaderboard[500]}" : "not found");
+            //Console.WriteLine("\n======== Safely Find ========\n");
+            //Console.WriteLine(Leaderboard.TryGetValue(999, out string? value)?$"founf his name is: {value}":"no data");
+            //Console.WriteLine("\n======== After remove player ========\n");
+            //Leaderboard.Remove(200);
+            //foreach (var i in Leaderboard)
+            //{
+            //    Console.WriteLine($"{i.Key}: {i.Value}\n");
+            //} 
+            #endregion
 
 
 
