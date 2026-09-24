@@ -1,4 +1,6 @@
-﻿namespace ADVC_03
+﻿using System.Text;
+
+namespace ADVC_03
 {
     internal class Program
     {
@@ -70,6 +72,46 @@
             //} 
             #endregion
 
+            #region Q3
+
+            //Dictionary<string, string> phoneBook = new()
+            //{
+            //    {"01012879474" , "Ahmed" },
+            //    {"01012876574" , "Ali" },
+            //    {"01012854874" , "Sara" },
+            //    {"01012874674" , "Mohamed" }
+
+            //};
+            //phoneBook["01012879474"] = "thtoh";
+            //Console.WriteLine("\n======== Exiption ========\n");
+
+            //try
+            //{ 
+            //    phoneBook.Add("01012876574", "Ali");
+            //}
+            //catch(ArgumentException ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+            //Console.WriteLine("\n======== Try add ========\n");
+            //bool add = phoneBook.TryAdd("01012876574", "Ali");
+            //Console.WriteLine(add);
+            //Console.WriteLine("\n======== Exists ========\n");
+            //bool exit = phoneBook.ContainsValue("Mariam");
+            //Console.WriteLine(exit);
+            //Console.WriteLine("\n======== All keys ========\n");
+            //foreach (var i in phoneBook)
+            //{
+            //    Console.Write($"{i.Key},");
+            //}
+            //Console.WriteLine("\n");
+            //Console.WriteLine("\n======== All values ========\n");
+            //foreach (var i in phoneBook)
+            //{
+            //    Console.Write($"{i.Value},");
+            //}
+            //Console.WriteLine("\n"); 
+            #endregion
 
 
         }
