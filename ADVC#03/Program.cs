@@ -113,6 +113,44 @@ namespace ADVC_03
             //Console.WriteLine("\n"); 
             #endregion
 
+            #region Q4
+            //HashSet<string> EmailValidator = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            //{
+            //  "ahmed@test.com",
+            //  "AHMED@test.com",
+            //  "sara@test.com",
+            //  "Sara@Test.Com"
+            //};
+            //Console.WriteLine("\n======== Count ========\n");
+            //Console.WriteLine(EmailValidator.Count());//2 because hash set remove any dublicated data
+            //Console.WriteLine("\n======== UnionWith to Copy from SetA ========\n");
+            //HashSet<int> setA = new() { 1, 2, 3, 4, 5 };
+            //HashSet<int> setB = new() { 4,5,6,7,8 };
+            //HashSet<int> copy = new(setA);
+            //copy.UnionWith(setB);
+            //foreach (var i in copy)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine("\n======== IntersectWith to SetA ========\n");
+            //setA.IntersectWith(setB);
+            //foreach (var i in setA)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine("\n======== ExceptWith to SetB ========\n");
+            //setB.ExceptWith(setA);
+            //foreach (var i in setB)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine("\n======== IsSubSet ========\n");
+            //bool IsSubSet = setA.IsSubsetOf(new int[] { 1, 2 });
+            //Console.WriteLine(IsSubSet);
+
+            #endregion
+
+
 
         }
     }
